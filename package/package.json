@@ -1,0 +1,20 @@
+{
+  "name": "ts-4-5-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./build/types/*": "./build/types/*",
+    "./*": "./*"
+  },
+  "types": "./build/types/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}

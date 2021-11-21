@@ -1,0 +1,18 @@
+{
+  "name": "ts-4-5-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "ts-4-5-package": "file:../package"
+  }
+}
