@@ -1,4 +1,4 @@
-# Typescript 4.5 Undocumented breaking change
+# Typescript 4.5 Regression
 
 I recently upgraded one of my projects to TypeScript 4.5 and it breaks if the underlying package has defined export map.
 
